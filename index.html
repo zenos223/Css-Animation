@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change the mood - Fixed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card" id="card">
+
+        <div class="card-top-bar">
+            <span>LITTLE INTERACTIONS</span>
+            <span class="badge">09 / 13</span>
+        </div>
+
+        <div class="card-header">
+            <p class="sub-title">— A MOMENT TO SWITCH —</p>
+            <h1>Change the mood.</h1>
+            <p class="description">A little sunshine. A little starlight.<br>One tiny interaction.</p>
+        </div>
+
+        <div class="art-container">
+            <div class="stars-container">
+                <div class="star s1"></div>
+                <div class="star s2"></div>
+                <div class="star s3"></div>
+                <div class="star s4"></div>
+                <div class="star s5"></div>
+            </div>
+
+            <div class="cloud"></div>
+
+            <div class="celestial-body">
+                <div class="crater c1"></div>
+                <div class="crater c2"></div>
+            </div>
+
+            <div class="landscape">
+                <svg viewBox="0 0 500 250" class="landscape-svg">
+                    <path class="hill-back" d="M0,250 C150,120 350,220 500,160 L500,250 Z" />
+                    <path class="hill-front" d="M0,250 C120,180 280,140 500,210 L500,250 Z" />
+                </svg>
+            </div>
+
+            <div class="art-badge">YOUR DAILY ESCAPE</div>
+        </div>
+
+        <div class="toggle-container">
+            <span class="toggle-label day-label">Day</span>
+
+            <button class="toggle-switch" id="themeToggle" aria-label="Toggle Theme">
+                <span class="toggle-circle">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <circle cx="12" cy="12" r="5" />
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                    </svg>
+                </span>
+            </button>
+
+            <span class="toggle-label night-label">Night</span>
+        </div>
+
+        <p class="dynamic-text" id="dynamicText">Take a breath. Enjoy the daylight.</p>
+
+        <div class="card-footer">
+            SMALL DETAILS. BIG FEELINGS.
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
